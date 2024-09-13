@@ -17,4 +17,14 @@ public class CheckPrimeNumber {
 		}
 		return true; // No divisors found, prime number
 	}
+
+	public void checkPrime(int number) {
+
+		// Check if the number is prime
+		if (isPrime(number)) {
+			System.out.println(number + " is a prime number.");
+		} else {
+			System.out.println(number + " is not a prime number.");
+		}
+	}
 }
